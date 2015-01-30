@@ -1,0 +1,85 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+-moz-text-size-adjust:100%;
+-ms-text-size-adjust:100%;
+-webkit-text-size-adjust:100%;
+text-size-adjust:100%;
+  }
+  
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.ball { 
+    width: 2%;
+    animation: ball 5s ease-in-out alternate infinite;
+    position: absolute;
+    left: 30%;
+    
+}
+
+.racket { 
+    
+    width: 10%;
+    left: 90%;
+    position: relative;
+}
+
+.racket2 { 
+    
+    width: 10%;
+    transform: scaleX(-1);
+    left: -10%;
+    position: relative;
+}
+
+.billboard { 
+    background-color:#69C187;
+    padding-right: 25%;
+   padding-left: 25%;
+    padding-top: 5%;
+   
+}
+
+.world { 
+    color: white;
+    font-family:helvetica;
+    text-align:center;
+    font-size:3.5rem;
+    top: -2rem;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 100%;
+    
+}
+
+.click { 
+    width: 20%;
+    position: relative;
+    left: 40%;
+    right: 40%;
+}
+
+@keyframes ball {
+
+    0% { 
+        transform: translateY(0%);
+    }
+    
+  
+    100% {
+        transform: translateX(1930%);
+    }
+
+}
+
+
+
