@@ -5,17 +5,18 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  box-sizing: border-box;
--moz-text-size-adjust:100%;
--ms-text-size-adjust:100%;
--webkit-text-size-adjust:100%;
-text-size-adjust:100%;
+    box-sizing: border-box;
+    -moz-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+    text-size-adjust:100%;
     background-color: black;
-  }
-  
+
+}
 
 *, *:before, *:after {
   box-sizing: inherit;
+
 }
 
 .ball { 
@@ -26,12 +27,12 @@ text-size-adjust:100%;
     left: 45.5%;
     display: block;
     bottom: 90%;
+
 }
-
-
 
 body { 
     margin: 0;
+
 }
 
 .RB { 
@@ -41,21 +42,22 @@ body {
     margin-right: 1rem;
     position: relative;
     padding-top: 20%;
-}
 
+}
 
 .click {
     opacity: 0.4;
     -webkit-transition: all 1ms ease-in-out;
     transition: all 1ms ease-in-out;
+
 }
 
 .click:hover {
     opacity: 1.0;
     -webkit-transition: all  ease-in;
     transition: all  ease-in;
-}
 
+}
 
 .nav-button { 
     position: absolute;
@@ -71,14 +73,15 @@ body {
     overflow:hidden;
     background-position: center center;
     z-index: 1000;
+
 }
 
 .nav-button:hover { 
     height: 5em;
     width: 5em;
     background-color: red;
-}
 
+}
 
 h1 { 
     color: white;
@@ -92,7 +95,7 @@ h1 {
     animation-fill-mode: both; 
     -webkit-animation-timing-function: ease-in-out; 
     animation-timing-function: ease-in-out; 
-          
+
 }
 
 .racket { 
@@ -102,19 +105,14 @@ h1 {
     position: absolute;
      -webkit-animation: racket .2s ease-in-out infinite alternate;
     animation: racket .2s ease-in-out infinite alternate;
-    
+
 }
-
-
 
 .billboard { 
     background-color:#69C187;
     margin: 0;
     padding: 1em 0;
- 
-    
-   
-    
+
 }
 
 .world { 
@@ -126,8 +124,7 @@ h1 {
     top: 25%;
     left: 0;
     width: 100%;
-    
-    
+
 }
 
 .click { 
@@ -138,12 +135,14 @@ h1 {
     margin-left: auto;
     padding-bottom: 1rem;
     padding-right: 1rem;
-        padding-left:1rem;
+    padding-left:1rem;
+
 }
 
 .fadeIn { 
     -webkit-animation-name: fadeIn; 
     animation-name: fadeIn; 
+
 }
 
 @-webkit-keyframes ball {
@@ -154,23 +153,25 @@ h1 {
   
     100% {
         transform: translateY(50px);
+    
     }
 
 }
-
-
 
 @keyframes ball {
 
     0% { 
         transform: translateY(0px);
+    
     }
   
     100% {
         transform: translateY(50px);
+    
     }
 
 }
+
 @-webkit-keyframes racket {
 
     0% { 
@@ -183,22 +184,22 @@ h1 {
 
 }
 
-
 @keyframes racket {
 
     0% { 
         transform: translateY(0px);
+    
     }
   
     100% {
         transform: translateY(6px);
+    
     }
 
 }
+
 @-webkit-keyframes opacity {
 
-
-    
     0% { 
         transition:opacity(0%);
     }
@@ -210,27 +211,29 @@ h1 {
 
 @keyframes opacity {
 
-
-    
     0% { 
         transition:opacity(0%);
-    }
+        
+        }
     
     100% {
         transition:opacity(100%);
+    
     }
 }
-
-
 
 @-webkit-keyframes fadeIn { 
     0% {opacity: 0;} 
     100% {opacity: 1;} 
+
 } 
+
 @keyframes fadeIn { 
     0% {opacity: 0;} 
     100% {opacity: 1;} 
+
 } 
+
 .fadeIn { 
     -webkit-animation-name: fadeIn; 
     animation-name: fadeIn; 
@@ -240,80 +243,73 @@ h1 {
 @media only screen and (min-width: 22em) { 
 
     .click { 
-    width: 15%;
-    position: relative;
-    display: block; 
-    margin-right: auto;
-    margin-left: auto;
+        width: 15%;
+        position: relative;
+        display: block; 
+        margin-right: auto;
+        margin-left: auto;
     
-}
+    }
     
     .ball { 
-    width: 9%;
-    animation: ball .2s ease-in-out infinite alternate;
-    position: absolute;
-    left: 45.5%;
-    display: block;
-    bottom: 70%;
-}
+        width: 9%;
+        animation: ball .2s ease-in-out infinite alternate;
+        position: absolute;
+        left: 45.5%;
+        display: block;
+        bottom: 70%;
+    
+    }
     
     .racket { 
-    bottom: .1%;
-    width: 50%;
-    left: 25%;
-    position: absolute;
-     animation: racket .2s ease-in-out infinite alternate;
-}
+        bottom: .1%;
+        width: 50%;
+        left: 25%;
+        position: absolute;
+        animation: racket .2s ease-in-out infinite alternate;
 
+    }
 
-
-    
 }
 
 @media only screen and (min-width: 50em) { 
 
     .click { 
-    width: 20%;
-    position: relative;
-    display: block; 
-    margin-right: auto;
-    margin-left: auto;
+        width: 20%;
+        position: relative;
+        display: block; 
+        margin-right: auto;
+        margin-left: auto;
     
-}
-      .ball { 
-    width: 9%;
-    animation: ball .2s ease-in-out infinite alternate;
-    position: absolute;
-    left: 45.5%;
-    display: block;
-    bottom: 40%;
-}
+    }
+    
+    .ball { 
+        width: 9%;
+        animation: ball .2s ease-in-out infinite alternate;
+        position: absolute;
+        left: 45.5%;
+        display: block;
+        bottom: 40%;
+    }
     
     .racket { 
-    bottom: .1%;
-    width: 50%;
-    left: 25%;
-    position: absolute;
-     animation: racket .2s ease-in-out infinite alternate;
-}
-
-    
-
+        bottom: .1%;
+        width: 50%;
+        left: 25%;
+        position: absolute;
+        animation: racket .2s ease-in-out infinite alternate;
+    }
 }
 
 @media only screen and (min-width: 60em) { 
     
-.click { 
-    width: 10%;
-    position: relative;
-    display: block; 
-    margin-right: auto;
-    margin-left: auto;
-}
-    
-
-
-
+    .click { 
+        width: 10%;
+        position: relative;
+        display: block; 
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 }
 
