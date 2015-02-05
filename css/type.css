@@ -19,7 +19,7 @@ text-size-adjust:100%;
 
 
 html {
-  font: normal 100%/1.5 Georgia,serif;
+  font-family: "Righteous", cursive;
 }
 
 @media only screen and (min-width: 60em) {

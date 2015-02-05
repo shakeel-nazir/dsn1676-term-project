@@ -22,31 +22,38 @@ text-size-adjust:100%;
     width: 9%;
     animation: ball .2s ease-in-out infinite alternate;
     position: absolute;
-    top:.5rem;
-    margin-left: 20.5%;
+    left: 45.5%;
     display: block;
+    bottom: 50%;
 }
 
-.body { 
+body { 
     margin: 0;
 }
 
+.RB { 
+    margin-bottom: .5rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    position: relative;
+    padding-top: 20%;
+}
 
 
 .click {
     opacity: 0.4;
-    animation: alpha(opacity=40) 4s ease-in-out;
+    transition: alpha(opacity=40) 4s ease-in-out;
 }
 
 .click:hover {
     opacity: 1.0;
-    animation: alpha(opacity=100) 4s ease-in-out;
+    transition: alpha(opacity=100) 4s ease-in-out;
 }
 
 
 
 h1 { 
-    font-family: sans-serif;
     color: white;
     position: relative;
     top:1.5rem; 
@@ -62,9 +69,10 @@ h1 {
 }
 
 .racket { 
-    top: 1.5rem;
-    width: 100%;
-    position: relative;
+    bottom: .1%;
+    width: 50%;
+    left: 25%;
+    position: absolute;
      animation: racket .2s ease-in-out infinite alternate;
 }
 
@@ -73,7 +81,7 @@ h1 {
     display: block;
     margin-left: 120%; 
     opacity: 0.5;
-    animation: alpha(opacity=40) 4s ease-in-out;
+    transition: alpha(opacity=40) 4s ease-in-out;
 }
 
 
@@ -82,23 +90,21 @@ h1 {
     display: block;
     margin-left: 110%;
      opacity: 1.0;
-    animation: alpha(opacity=100) 4s ease-in-out;
+    transition: alpha(opacity=100) 4s ease-in-out;
     
 }
 
 
 .billboard { 
     background-color:#69C187;
-    padding-right: 25%;
-    padding-left: 25%;
-    padding-top: 5%;
+    margin: 0;
+   
     
    
 }
 
 .world { 
     color: white;
-    font-family:helvetica;
     text-align:center;
     font-size:3.5rem;
     top: -2rem;
@@ -187,25 +193,41 @@ h1 {
     margin-left: auto;
     
 }
-         .ball { 
-    width: 7%;
+    
+    .ball { 
+    width: 9%;
     animation: ball .2s ease-in-out infinite alternate;
-    position:absolute;
-    top:.6rem;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    left: 45.5%;
     display: block;
-    right: 47.5%;
+    bottom: 70%;
+}
+    
+    .racket { 
+    bottom: .1%;
+    width: 50%;
+    left: 25%;
+    position: absolute;
+     animation: racket .2s ease-in-out infinite alternate;
 }
 
-        .racket { 
-    top: 1.5rem;
-    width: 76%;
+
+    
+    .toggle {
+    width:  10%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    animation: racket .2s ease-in-out infinite alternate;
+    margin-left: 135%; 
+    opacity: 0.5;
+    transition:  alpha(opacity=40) 4s ease-in-out;
+}
+
+    .toggle:hover {
+    width:13%;
+    display: block;
+    margin-left: 130%;
+     opacity: 1.0;
+    transition:  alpha(opacity=100) 4s ease-in-out;
+    
 }
     
 
@@ -222,26 +244,39 @@ h1 {
     margin-left: auto;
     
 }
-    
-        .ball { 
-    width: 5%;
+      .ball { 
+    width: 9%;
     animation: ball .2s ease-in-out infinite alternate;
-    position:absolute;
-    top:3rem;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    left: 45.5%;
     display: block;
-    right: 47.5%;
+    bottom: 40%;
+}
+    
+    .racket { 
+    bottom: .1%;
+    width: 50%;
+    left: 25%;
+    position: absolute;
+     animation: racket .2s ease-in-out infinite alternate;
 }
 
-        .racket { 
-    top: 1.5rem;
-    width: 50%;
+    
+    .toggle {
+    width:  15%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    animation: racket .2s ease-in-out infinite alternate;
+    margin-left: 130%; 
+    opacity: 0.5;
+    transition:  alpha(opacity=40) 4s ease-in-out;
+}
+
+    .toggle:hover {
+    width:17%;
+    display: block;
+    margin-left: 128%;
+     opacity: 1.0;
+    transition:  alpha(opacity=100) 4s ease-in-out;
+    
 }
 
 }
@@ -256,25 +291,25 @@ h1 {
     margin-left: auto;
 }
     
-    .racket { 
-    top: 1.5rem;
-    width: 50%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    position: relative;
-     animation: racket .2s ease-in-out infinite alternate;
+
+
+    
+    .toggle {
+    width:  5%;
+    display: block;
+    margin-left: 135%; 
+    opacity: 0.5;
+    transition:  alpha(opacity=40) 4s ease-in-out;
+        margin-top:0;
 }
 
-    .ball { 
-    width: 5%;
-    animation: ball .2s ease-in-out infinite alternate;
-    position:absolute;
-    top:4rem;
-    margin-left: auto;
-    margin-right: auto;
+    .toggle:hover {
+    width:10%;
     display: block;
-    right: 47.5%;
+    margin-left: 131%;
+     opacity: 1.0;
+    transition:  alpha(opacity=100) 4s ease-in-out;
+    
 }
 
 
