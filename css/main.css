@@ -74,6 +74,7 @@ h1 {
     left: 25%;
     position: absolute;
      animation: racket .2s ease-in-out infinite alternate;
+    
 }
 
 .toggle {
