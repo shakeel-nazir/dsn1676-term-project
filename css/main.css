@@ -27,6 +27,8 @@ text-size-adjust:100%;
     bottom: 90%;
 }
 
+
+
 body { 
     margin: 0;
 }
@@ -51,6 +53,30 @@ body {
     transition: all  ease-in;
 }
 
+
+.nav-button { 
+    position: absolute;
+     top: 1em;
+    left: 5em;
+    height: 3em;
+    width: 3em;
+    background:url("../images/toggle.svg") no-repeat;
+    transition: background-color 0.5s ease;
+    background-color: red;
+    transition: all 500ms;
+    overflow:hidden;
+}
+
+.nav-button:hover { 
+       position: absolute;
+    
+    top: 1em;
+    left: 5em;
+    height: 6em;
+    width: 6em;
+    background:url("../images/toggle.svg") no-repeat;
+ background-color: green;
+}
 
 
 h1 { 
@@ -77,23 +103,6 @@ h1 {
     
 }
 
-.toggle {
-    width:20%;
-    display: block;
-    margin-left: 120%; 
-    opacity: 0.5;
-    transition: alpha(opacity=40) 4s ease-in-out;
-}
-
-
-.toggle:hover {
-    width:30%;
-    display: block;
-    margin-left: 110%;
-     opacity: 1.0;
-    transition: alpha(opacity=100) 4s ease-in-out;
-    
-}
 
 
 .billboard { 
@@ -214,24 +223,6 @@ h1 {
 }
 
 
-    
-    .toggle {
-    width:  10%;
-    display: block;
-    margin-left: 135%; 
-    opacity: 0.5;
-    transition:  alpha(opacity=40) 4s ease-in-out;
-}
-
-    .toggle:hover {
-    width:13%;
-    display: block;
-    margin-left: 130%;
-     opacity: 1.0;
-    transition:  alpha(opacity=100) 4s ease-in-out;
-    
-}
-    
 
     
 }
@@ -264,29 +255,13 @@ h1 {
 }
 
     
-    .toggle {
-    width:  15%;
-    display: block;
-    margin-left: 130%; 
-    opacity: 0.5;
-    transition:  alpha(opacity=40) 4s ease-in-out;
-}
-
-    .toggle:hover {
-    width:17%;
-    display: block;
-    margin-left: 128%;
-     opacity: 1.0;
-    transition:  alpha(opacity=100) 4s ease-in-out;
-    
-}
 
 }
 
 @media only screen and (min-width: 60em) { 
     
 .click { 
-    width: 10%;
+    width: 5%;
     position: relative;
     display: block; 
     margin-right: auto;
@@ -295,24 +270,6 @@ h1 {
     
 
 
-    
-    .toggle {
-    width:  5%;
-    display: block;
-    margin-left: 135%; 
-    opacity: 0.5;
-    transition:  alpha(opacity=40) 4s ease-in-out;
-        margin-top:0;
-}
-
-    .toggle:hover {
-    width:10%;
-    display: block;
-    margin-left: 131%;
-     opacity: 1.0;
-    transition:  alpha(opacity=100) 4s ease-in-out;
-    
-}
 
 
 }
