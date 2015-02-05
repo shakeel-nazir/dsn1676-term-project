@@ -20,6 +20,7 @@ text-size-adjust:100%;
 
 .ball { 
     width: 9%;
+    -webkit-animation: ball .2s ease-in-out infinite alternate;
     animation: ball .2s ease-in-out infinite alternate;
     position: absolute;
     left: 45.5%;
@@ -45,11 +46,13 @@ body {
 
 .click {
     opacity: 0.4;
+    -webkit-transition: all 1ms ease-in-out;
     transition: all 1ms ease-in-out;
 }
 
 .click:hover {
     opacity: 1.0;
+    -webkit-transition: all  ease-in;
     transition: all  ease-in;
 }
 
@@ -57,7 +60,7 @@ body {
 .nav-button { 
     position: absolute;
      top: 1em;
-    left: 5em;
+    left: 1em;
     height: 3em;
     width: 3em;
     background:url("../images/toggle.svg") no-repeat;
@@ -71,8 +74,8 @@ body {
 }
 
 .nav-button:hover { 
-    height: 6em;
-    width: 6em;
+    height: 5em;
+    width: 5em;
     background-color: red;
 }
 
@@ -97,7 +100,8 @@ h1 {
     width: 50%;
     left: 25%;
     position: absolute;
-     animation: racket .2s ease-in-out infinite alternate;
+     -webkit-animation: racket .2s ease-in-out infinite alternate;
+    animation: racket .2s ease-in-out infinite alternate;
     
 }
 
@@ -110,6 +114,7 @@ h1 {
  
     
    
+    
 }
 
 .world { 
@@ -141,6 +146,18 @@ h1 {
     animation-name: fadeIn; 
 }
 
+@-webkit-keyframes ball {
+
+    0% { 
+        transform: translateY(0px);
+    }
+  
+    100% {
+        transform: translateY(50px);
+    }
+
+}
+
 
 
 @keyframes ball {
@@ -151,6 +168,17 @@ h1 {
   
     100% {
         transform: translateY(50px);
+    }
+
+}
+@-webkit-keyframes racket {
+
+    0% { 
+        transform: translateY(0px);
+    }
+  
+    100% {
+        transform: translateY(6px);
     }
 
 }
@@ -167,9 +195,10 @@ h1 {
     }
 
 }
+@-webkit-keyframes opacity {
 
-@keyframes opacity {
 
+    
     0% { 
         transition:opacity(0%);
     }
@@ -178,6 +207,21 @@ h1 {
         transition:opacity(100%);
     }
 }
+
+@keyframes opacity {
+
+
+    
+    0% { 
+        transition:opacity(0%);
+    }
+    
+    100% {
+        transition:opacity(100%);
+    }
+}
+
+
 
 @-webkit-keyframes fadeIn { 
     0% {opacity: 0;} 
