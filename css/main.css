@@ -94,7 +94,7 @@ h1 {
     top:1.5rem; 
     width: 100%;
     text-align: center;
-    -webkit-animation-duration: 1s; 
+    -webkit-animation-duration: 3s; 
     animation-duration: 3s; 
     -webkit-animation-fill-mode: both; 
     animation-fill-mode: both; 
@@ -153,12 +153,12 @@ h1 {
 @-webkit-keyframes ball {
 
     0% { 
-        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
         
     }
   
     100% {
-        transform: translateY(50px);
+        -webkit-transform: translateY(50px);
     
     }
 
@@ -181,12 +181,12 @@ h1 {
 @-webkit-keyframes racket {
 
     0% { 
-        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
     
     }
   
     100% {
-        transform: translateY(6px);
+        -webkit-transform: translateY(6px);
     
     }
 
