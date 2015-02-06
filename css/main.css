@@ -264,20 +264,11 @@ h1 {
 
     .click { 
         width: 15%;
-        position: relative;
-        display: block; 
-        margin-right: auto;
-        margin-left: auto;
     
     }
     
     .ball { 
         width: 9%;
-        -webkit-animation: ball .2s infinite alternate;
-        animation: ball .2s infinite alternate;
-        position: absolute;
-        left: 45.5%;
-        display: block;
         bottom: 70%;
     
     }
@@ -285,10 +276,6 @@ h1 {
     .racket { 
         bottom: .1%;
         width: 50%;
-        left: 25%;
-        position: absolute;
-        -wepkit-animation: racket .2s ease-in-out infinite alternate;
-        animation: racket .2s ease-in-out infinite alternate;
 
     }
 
@@ -298,20 +285,12 @@ h1 {
 
     .click { 
         width: 20%;
-        position: relative;
-        display: block; 
-        margin-right: auto;
-        margin-left: auto;
     
     }
     
     .ball { 
         width: 9%;
-        -webkit-animation: ball .2s ease-in-out infinite alternate;
-        animation: ball .2s ease-in-out infinite alternate;
-        position: absolute;
         left: 45.5%;
-        display: block;
         bottom: 40%;
     
     }
@@ -319,10 +298,6 @@ h1 {
     .racket { 
         bottom: .1%;
         width: 50%;
-        left: 25%;
-        position: absolute;
-        -webkit-animation: racket .2s ease-in-out infinite alternate;
-        animation: racket .2s ease-in-out infinite alternate;
     
     }
 
@@ -332,10 +307,6 @@ h1 {
     
     .click { 
         width: 10%;
-        position: relative;
-        display: block; 
-        margin-right: auto;
-        margin-left: auto;
     
     }
 
