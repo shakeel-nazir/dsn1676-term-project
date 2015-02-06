@@ -70,8 +70,10 @@ body {
     width: 3em;
     background:url("../images/toggle.svg") no-repeat;
     background-size: 2em auto;
+    -webkit-transition: background-color 0.5s ease;
     transition: background-color 0.5s ease;
     background-color: white;
+    -wepkit-transition: all 500ms;
     transition: all 500ms;
     overflow:hidden;
     background-position: center center;
@@ -257,7 +259,7 @@ h1 {
     
     .ball { 
         width: 9%;
-        animation: ball .2s ease-in-out infinite alternate;
+        animation: ball .2s infinite alternate;
         position: absolute;
         left: 45.5%;
         display: block;
