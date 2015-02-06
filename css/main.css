@@ -259,6 +259,7 @@ h1 {
     
     .ball { 
         width: 9%;
+        -webkit-animation: ball .2s infinite alternate;
         animation: ball .2s infinite alternate;
         position: absolute;
         left: 45.5%;
@@ -272,6 +273,7 @@ h1 {
         width: 50%;
         left: 25%;
         position: absolute;
+        -wepkit-animation: racket .2s ease-in-out infinite alternate;
         animation: racket .2s ease-in-out infinite alternate;
 
     }
@@ -291,6 +293,7 @@ h1 {
     
     .ball { 
         width: 9%;
+        -webkit-animation: ball .2s ease-in-out infinite alternate;
         animation: ball .2s ease-in-out infinite alternate;
         position: absolute;
         left: 45.5%;
@@ -304,6 +307,7 @@ h1 {
         width: 50%;
         left: 25%;
         position: absolute;
+        -webkit-animation: racket .2s ease-in-out infinite alternate;
         animation: racket .2s ease-in-out infinite alternate;
     
     }
