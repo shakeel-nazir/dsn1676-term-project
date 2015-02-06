@@ -15,7 +15,7 @@ html {
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 
 }
 
@@ -149,6 +149,7 @@ h1 {
 
     0% { 
         transform: translateY(0px);
+        
     }
   
     100% {
@@ -176,10 +177,12 @@ h1 {
 
     0% { 
         transform: translateY(0px);
+    
     }
   
     100% {
         transform: translateY(6px);
+    
     }
 
 }
@@ -202,11 +205,14 @@ h1 {
 
     0% { 
         transition:opacity(0%);
+    
     }
     
     100% {
         transition:opacity(100%);
+    
     }
+
 }
 
 @keyframes opacity {
@@ -214,12 +220,13 @@ h1 {
     0% { 
         transition:opacity(0%);
         
-        }
+    }
     
     100% {
         transition:opacity(100%);
     
     }
+
 }
 
 @-webkit-keyframes fadeIn { 
@@ -237,6 +244,7 @@ h1 {
 .fadeIn { 
     -webkit-animation-name: fadeIn; 
     animation-name: fadeIn; 
+
 }
 
 
@@ -299,6 +307,7 @@ h1 {
         position: absolute;
         animation: racket .2s ease-in-out infinite alternate;
     }
+
 }
 
 @media only screen and (min-width: 60em) { 
