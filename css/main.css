@@ -206,34 +206,6 @@ h1 {
 
 }
 
-@-webkit-keyframes opacity {
-
-    0% { 
-        transition:opacity(0%);
-    
-    }
-    
-    100% {
-        transition:opacity(100%);
-    
-    }
-
-}
-
-@keyframes opacity {
-
-    0% { 
-        transition:opacity(0%);
-    
-    }
-    
-    100% {
-        transition:opacity(100%);
-    
-    }
-
-}
-
 @-webkit-keyframes fadeIn { 
     
     0% {
