@@ -33,6 +33,13 @@ html {
 
 }
 
+.info2{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: #c1eae4;
+    color: #08566d;
+}
 
 .btn { 
     background:url("../images/toggle.svg") no-repeat;
@@ -100,6 +107,7 @@ li {
     font-size: 1rem;
  
 }
+
 p {
     margin: 0;
     text-align: center;
