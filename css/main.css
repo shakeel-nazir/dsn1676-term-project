@@ -27,11 +27,157 @@ html {
     -webkit-animation: ball .2s ease-in-out infinite alternate;
     animation: ball .2s ease-in-out infinite alternate;
     position: absolute;
-    left: 45.5%;
+    left: -10%;
     display: block;
     bottom: 90%;
 
 }
+
+
+.btn { 
+    background:url("../images/toggle.svg") no-repeat;
+    height: 3em;
+    width: 3em;
+    -webkit-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+    -wepkit-transition: all 500ms;
+    transition: all 500ms;
+    border-radius: 5px;
+    border: none;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.btn:hover { 
+    height: 5em;
+    width: 5em;
+    margin-left: .5rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+
+}
+
+.top { 
+    background-color: #f6dd8e;
+
+
+}
+
+
+.panel { 
+    display: none;
+    width: 100%;
+
+}
+
+
+ul { 
+
+    margin: 0;
+    padding: 0;
+
+
+}
+
+li a { 
+    text-decoration: none;
+    color: #08566d;
+}
+
+
+
+
+li { 
+    background-color:#c1eae4;
+    list-style-type: none;
+    text-align: center;
+    color: #08566d;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+ 
+}
+p {
+    margin: 0;
+    text-align: center;
+}
+
+.moretournaments {
+    background-color: #08566d;
+    display: none;
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+    letter-spacing: .1rem;
+
+}
+
+
+.morehome {
+    background-color: #08566d;
+    display: none;
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+    letter-spacing: .1rem;
+
+}
+
+
+.moreracket {
+    background-color: #08566d;
+    display: none;
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+    letter-spacing: .1rem;
+
+}
+
+.morepingpong {
+    background-color: #08566d;
+    display: none;
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+    letter-spacing: .1rem;
+
+}
+
+.moreshop {
+    background-color: #08566d;
+    display: none;
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+    letter-spacing: .1rem;
+
+}
+
+.moreapparel {
+    background-color: #08566d;
+    display: none;
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+    letter-spacing: .1rem;
+
+}
+
+li:hover { 
+    background-color: lightgreen;
+    
+}
+
 
 body { 
     margin: 0;
@@ -62,34 +208,9 @@ body {
 
 }
 
-.nav-button { 
-    position: absolute;
-    top: 1em;
-    left: 1em;
-    height: 3em;
-    width: 3em;
-    background:url("../images/toggle.svg") no-repeat;
-    background-size: 2em auto;
-    -webkit-transition: background-color 0.5s ease;
-    transition: background-color 0.5s ease;
-    background-color: white;
-    -wepkit-transition: all 500ms;
-    transition: all 500ms;
-    overflow:hidden;
-    background-position: center center;
-    z-index: 1000;
-
-}
-
-.nav-button:hover { 
-    height: 5em;
-    width: 5em;
-    background-color: red;
-
-}
 
 h1 { 
-    color: white;
+    color:#c52a2a;
     position: relative;
     top:1.5rem; 
     width: 100%;
@@ -103,10 +224,15 @@ h1 {
 
 }
 
+.middel {
+        
+
+}
+
 .racket { 
     bottom: .1%;
     width: 50%;
-    left: 25%;
+    left: -30%;
     position: absolute;
     -webkit-animation: racket .2s ease-in-out infinite alternate;
     animation: racket .2s ease-in-out infinite alternate;
@@ -114,7 +240,7 @@ h1 {
 }
 
 .billboard { 
-    background-color:#69C187;
+    background-color:#f6dd8e;
     margin: 0;
     padding: 1em 0;
 
