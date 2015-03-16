@@ -27,7 +27,7 @@ html {
     -webkit-animation: ball .2s ease-in-out infinite alternate;
     animation: ball .2s ease-in-out infinite alternate;
     position: absolute;
-    left: -10%;
+    left: 48%;
     display: block;
     bottom: 90%;
 
@@ -67,7 +67,7 @@ html {
 }
 
 .top { 
-    background-color: #f6dd8e;
+    background-color: #63b4ae;
 
 
 }
@@ -109,77 +109,13 @@ li {
 }
 
 p {
-    margin: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 2rem;
     text-align: center;
+    color: #1c1c1c;
 }
 
-.moretournaments {
-    background-color: #08566d;
-    display: none;
-    margin: 0;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    color: white;
-    letter-spacing: .1rem;
-
-}
-
-
-.morehome {
-    background-color: #08566d;
-    display: none;
-    margin: 0;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    color: white;
-    letter-spacing: .1rem;
-
-}
-
-
-.moreracket {
-    background-color: #08566d;
-    display: none;
-    margin: 0;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    color: white;
-    letter-spacing: .1rem;
-
-}
-
-.morepingpong {
-    background-color: #08566d;
-    display: none;
-    margin: 0;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    color: white;
-    letter-spacing: .1rem;
-
-}
-
-.moreshop {
-    background-color: #08566d;
-    display: none;
-    margin: 0;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    color: white;
-    letter-spacing: .1rem;
-
-}
-
-.moreapparel {
-    background-color: #08566d;
-    display: none;
-    margin: 0;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    color: white;
-    letter-spacing: .1rem;
-
-}
 
 li:hover { 
     background-color: lightgreen;
@@ -195,10 +131,11 @@ body {
 .RB { 
     margin-bottom: .5rem;
     margin-top: 2rem;
-    margin-left: 1rem;
+    margin-left: rem;
     margin-right: 1rem;
     position: relative;
     padding-top: 20%;
+    background-color: red;
 
 }
 
@@ -218,7 +155,7 @@ body {
 
 
 h1 { 
-    color:#c52a2a;
+    color:#ee4035;
     position: relative;
     top:1.5rem; 
     width: 100%;
@@ -232,15 +169,27 @@ h1 {
 
 }
 
-.middel {
-        
+
+h2 { 
+    color: #313131;
+    font-size: 4rem;
+    margin-bottom: -1rem;
+
 
 }
+
+.space { 
+
+    background-color: red;
+
+
+}
+
 
 .racket { 
     bottom: .1%;
     width: 50%;
-    left: -30%;
+    left: 28%;
     position: absolute;
     -webkit-animation: racket .2s ease-in-out infinite alternate;
     animation: racket .2s ease-in-out infinite alternate;
@@ -248,7 +197,7 @@ h1 {
 }
 
 .billboard { 
-    background-color:#f6dd8e;
+    background-color:#63b4ae;
     margin: 0;
     padding: 1em 0;
 
@@ -385,6 +334,15 @@ h1 {
 
     }
 
+    h1 { 
+
+
+    font-size: 3rem;
+}
+
+
+
+
 }
 
 @media only screen and (min-width: 50em) { 
@@ -406,6 +364,11 @@ h1 {
     
     }
 
+       h1 { 
+
+    font-size: 5rem;
+}
+
 }
 
 @media only screen and (min-width: 60em) { 
@@ -414,6 +377,11 @@ h1 {
         width: 10%;
     
     }
+
+           h1 { 
+
+    font-size: 7rem;
+}
 
 }
 
