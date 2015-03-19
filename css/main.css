@@ -15,15 +15,11 @@ html {
     -webkit-text-size-adjust:100%;
     text-size-adjust:100%;
     overflow-x:hidden;
-
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
-
 }
-
-
 
 .info2{
     padding-top: 1rem;
@@ -46,52 +42,40 @@ html {
     margin-left: 1rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-
 }
 
 .btn:hover { 
     height: 7em;
     width: 7em;
-    
 }
 
 .btn-opc6:hover {
     background-color: lightgreen;
-    
-
 }
 
 .btn-opc5:hover {
     background-color: lightgreen;
-    
 }
-
 
 .btn-opc4:hover {
-    background-color: lightgreen;
-    
+    background-color: lightgreen;    
 }
-
 
 .btn-opc3:hover {
-    background-color: lightgreen;
-    
+    background-color: lightgreen;   
 }
-
 
 .btn-opc2:hover {
-    background-color: lightgreen;
-    
+    background-color: lightgreen;    
 }
-
 
 .btn-opc:hover {
-    background-color: lightgreen;
-    
+    background-color: lightgreen;   
 }
+
 .oc4 {
     padding-top: 8rem;
-padding-bottom: 8rem;
+    padding-bottom: 8rem;
     margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
@@ -106,7 +90,7 @@ padding-bottom: 8rem;
 
 .oc3 {
     padding-top: 8rem;
-padding-bottom: 8rem;
+    padding-bottom: 8rem;
     margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
@@ -122,7 +106,7 @@ padding-bottom: 8rem;
 
 .oc6 {
     padding-top: 8rem;
-padding-bottom: 8rem;
+    padding-bottom: 8rem;
     margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
@@ -137,7 +121,7 @@ padding-bottom: 8rem;
 
 .oc5 {
     padding-top: 8rem;
-padding-bottom: 8rem;
+    padding-bottom: 8rem;
     margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
@@ -152,7 +136,7 @@ padding-bottom: 8rem;
 
 .oc2 {
     padding-top: 8rem;
-padding-bottom: 8rem;
+    padding-bottom: 8rem;
     margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
@@ -164,9 +148,10 @@ padding-bottom: 8rem;
     text-align: center;
     display: none;
 }
+
 .oc {
     padding-top: 8rem;
-padding-bottom: 8rem;
+    padding-bottom: 8rem;
     margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
@@ -192,7 +177,6 @@ padding-bottom: 8rem;
     text-shadow:0px 1px 0px #2f6627;
 }
 
-
 .btn-opc6 { 
     margin-bottom: 1rem;
     background-color:#80CEB9;
@@ -205,7 +189,6 @@ padding-bottom: 8rem;
     text-decoration:none;
     text-shadow:0px 1px 0px #2f6627;
 }
-
 
 .btn-opc4 { 
     margin-bottom: 1rem;
@@ -258,16 +241,6 @@ padding-bottom: 8rem;
     text-decoration:none;
     text-shadow:0px 1px 0px #2f6627;
 }
-.myButton:hover {
-    background-color:#5cbf2a;
-}
-.myButton:active {
-    position:relative;
-    top:1px;
-}
-
-
-}
 
 .btn:hover { 
     height: 5em;
@@ -275,29 +248,20 @@ padding-bottom: 8rem;
     margin-left: .5rem;
     margin-top: 1rem;
     margin-bottom: .5rem;
-
 }
 
 .top { 
     background-color: #717D8C;
-
-
 }
-
 
 .panel { 
     display: none;
     width: 100%;
-
 }
 
-
 ul { 
-
     margin: 0;
     padding: 0;
-
-
 }
 
 li a { 
@@ -305,11 +269,8 @@ li a {
     color: #08566d;
 }
 
-
-
-
 li { 
-    background-color:#c1eae4;
+    background-color:#DDDDDD;
     list-style-type: none;
     text-align: center;
     color: #08566d;
@@ -317,13 +278,12 @@ li {
     padding-left: 1rem;
     padding-bottom: 1rem;
     font-size: 1rem;
- 
 }
 
 p {
     margin-left: 1rem;
     margin-right: 1rem;
-    font-size: 1rem;
+    font-size: 2rem;
     padding-top: 1rem;
     text-align: center;
     color: #1c1c1c;
@@ -336,15 +296,11 @@ p {
 
 li:hover { 
     background-color: lightgreen;
-    
 }
-
 
 body { 
     margin: 0;
-
 }
-
 
 .RB { 
     margin-bottom: .5rem;
@@ -353,8 +309,6 @@ body {
     margin-right: 1rem;
     position: relative;
     padding-top: 20%;
-
-
 }
 
 .imghome { 
@@ -397,56 +351,44 @@ body {
     background-color: #1A421E;
     text-align: center;
     margin: 0;
-
 }
 
 .shirtbg { 
     background-color: #E6B800;
     text-align: center;
-
 }
 
 .ballbg { 
     background-color: #CE7317;
     text-align: center;
-
 }
-
-
 
 .bracketbg { 
     background-color: #6AA0EF;
     text-align: center;
-
 }
-
 
 .racketbg { 
     background-color: #B71824;
     text-align: center;
-
 }
 
 .homebg { 
     background-color: #CC6846;
     text-align: center;
-
 }
 
 .click {
     opacity: 0.4;
     -webkit-transition: all 1ms ease-in-out;
     transition: all 1ms ease-in-out;
-
 }
 
 .click:hover {
     opacity: 1.0;
     -webkit-transition: all  ease-in;
     transition: all  ease-in;
-
 }
-
 
 h1 { 
     color:white;
@@ -460,9 +402,7 @@ h1 {
     animation-fill-mode: both; 
     -webkit-animation-timing-function: ease-in-out; 
     animation-timing-function: ease-in-out; 
-
 }
-
 
 h2 { 
     color: white;
@@ -471,18 +411,12 @@ h2 {
     line-height: 4rem;
     padding-top: 1rem;
     font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-
-
 }
 
 .space { 
-
     background-color:#717D8C;
     height: 3rem;
-
-
 }
-
 
 .racket { 
     bottom: .1%;
@@ -491,9 +425,7 @@ h2 {
     position: absolute;
     -webkit-animation: racket .2s ease-in-out infinite alternate;
     animation: racket .2s ease-in-out infinite alternate;
-
 }
-
 
 .ball { 
     width: 9%;
@@ -503,14 +435,12 @@ h2 {
     left: 30rem;
     display: block;
     bottom: 90%;
-
 }
 
 .billboard { 
     background-color:#717D8C;
     margin: 0;
     padding: 1em 0;
-
 }
 
 .world { 
@@ -522,7 +452,6 @@ h2 {
     top: 25%;
     left: 0;
     width: 100%;
-
 }
 
 .click { 
@@ -534,13 +463,11 @@ h2 {
     padding-bottom: 1rem;
     padding-right: 1rem;
     padding-left:1rem;
-
 }
 
 .fadeIn { 
     -webkit-animation-name: fadeIn; 
     animation-name: fadeIn; 
-
 }
 
 @-webkit-keyframes ball {
@@ -694,5 +621,3 @@ h2 {
 }
 
 }
-
-
