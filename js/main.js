@@ -28,6 +28,7 @@ $btn.on('click', function () {
     $panel.animate({height: 'toggle'});
 })
 
+
 $billboard.on('mousemove', function (e) {
     $rb.css('left', e.pageX - $rb.outerWidth() / 2);
 });
