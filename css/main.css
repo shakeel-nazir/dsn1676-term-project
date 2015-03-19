@@ -55,8 +55,40 @@ html {
     
 }
 
+.btn-opc6:hover {
+    background-color: lightgreen;
+    
+
+}
+
+.btn-opc5:hover {
+    background-color: lightgreen;
+    
+}
 
 
+.btn-opc4:hover {
+    background-color: lightgreen;
+    
+}
+
+
+.btn-opc3:hover {
+    background-color: lightgreen;
+    
+}
+
+
+.btn-opc2:hover {
+    background-color: lightgreen;
+    
+}
+
+
+.btn-opc:hover {
+    background-color: lightgreen;
+    
+}
 .oc4 {
     padding-top: 8rem;
 padding-bottom: 8rem;
@@ -369,7 +401,7 @@ body {
 }
 
 .shirtbg { 
-    background-color: #E2DD79;
+    background-color: #E6B800;
     text-align: center;
 
 }
