@@ -18,18 +18,18 @@ var $btnopac5 = $('.btn-opc5');
 var $oc5 = $('.oc5')
 var $btnopac6 = $('.btn-opc6');
 var $oc6 = $('.oc6')
+var $imghome = $('.imghome')
 
 
 var $billboard = $('.billboard');
 var $rb = $('.RB');
-
 
 $btn.on('click', function () {
     $panel.animate({height: 'toggle'});
 })
 
 $billboard.on('mousemove', function (e) {
-    $rb.css('left', e.pageX);
+    $rb.css('left', e.pageX - $rb.outerWidth() / 2);
 });
 
 $btncowboy.on('click', function () {
@@ -57,3 +57,8 @@ $btnopac5.on('click', function () {
 $btnopac6.on('click', function () {
     $oc6.animate({height: 'toggle'});
 })
+/*
+$btn.click(function() {
+  $imghome.effect( "shake" );
+});
+*/
