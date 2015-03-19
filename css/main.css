@@ -22,16 +22,7 @@ html {
 
 }
 
-.ball { 
-    width: 9%;
-    -webkit-animation: ball .2s ease-in-out infinite alternate;
-    animation: ball .2s ease-in-out infinite alternate;
-    position: absolute;
-    left: 48%;
-    display: block;
-    bottom: 90%;
 
-}
 
 .info2{
     padding-top: 1rem;
@@ -112,6 +103,7 @@ p {
     margin-left: 1rem;
     margin-right: 1rem;
     font-size: 2rem;
+    padding-top: 1rem;
     text-align: center;
     color: #1c1c1c;
 }
@@ -128,14 +120,15 @@ body {
 
 }
 
+
 .RB { 
     margin-bottom: .5rem;
     margin-top: 2rem;
-    margin-left: rem;
+    padding-left: 50rem;
     margin-right: 1rem;
     position: relative;
     padding-top: 20%;
-    background-color: red;
+
 
 }
 
@@ -171,28 +164,112 @@ h1 {
 
 
 h2 { 
-    color: #313131;
+    color: #009688;
     font-size: 4rem;
     margin-bottom: -1rem;
+    line-height: 4rem;
 
 
 }
 
 .space { 
 
-    background-color: red;
+    background-color:#99d5cf;
+    height: 3rem;
 
 
 }
 
+.btn-cowboy { 
+
+    margin-right:25%;
+    top: 1.5rem;
+    margin-left: 25%;
+    position: relative;
+
+
+}
+
+.glasses { 
+
+     width:10%;
+    /*z-index: 1000;*/
+    margin-left: 0 auto;
+    margin-top: 0 auto;
+    text-align: center;
+    display: none;
+    /*transform: translateY(-300px);*/
+    /*transition: all 1s linear;*/
+
+}
+
+.glassest { 
+    position: relative;    
+    z-index: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*transform: translateY(1px);*/
+    
+}
+
+.cowboy1 { 
+
+      width:10%;
+    /*z-index: 1000;*/
+    margin-left: 0 auto;
+    margin-top: 0 auto;
+    text-align: center;
+    translate: ;
+
+
+
+}
 
 .racket { 
     bottom: .1%;
     width: 50%;
-    left: 28%;
+    left:20rem;
     position: absolute;
     -webkit-animation: racket .2s ease-in-out infinite alternate;
     animation: racket .2s ease-in-out infinite alternate;
+
+}
+
+.cowboybackground { 
+padding-top: 3rem;
+padding-bottom: 3rem;
+overflow: hidden;
+ background-color: #99d5cf;
+text-align: center;
+overflow: hidden;
+
+}
+
+.cowboyglass { 
+    text-align: center;
+    overflow: hidden;
+
+
+}
+
+.cowboy { 
+
+    width: 20%;
+    position: relative;
+    left: 1%;
+    z-index: 0;
+
+}
+
+.ball { 
+    width: 9%;
+    -webkit-animation: ball .2s ease-in-out infinite alternate;
+    animation: ball .2s ease-in-out infinite alternate;
+    position: absolute;
+    left: 30rem;
+    display: block;
+    bottom: 90%;
 
 }
 
