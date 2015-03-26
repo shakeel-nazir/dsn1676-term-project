@@ -55,3 +55,9 @@ $btnopac5.on('click', function () {
 $btnopac6.on('click', function () {
     $oc6.animate({height: 'toggle'});
 })
+
+$('.nav').localScroll();
+
+$('.home').localScroll();
+
+$('.footer').localScroll();

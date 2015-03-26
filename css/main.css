@@ -203,6 +203,15 @@ html {
     text-shadow:0px 1px 0px #2f6627;
 }
 
+.footer{ 
+    padding-top: 3rem;
+    background-color: #717D8C;
+    text-align: center;
+    margin: 0;
+}
+
+
+
 .btn-opc3 { 
     margin-bottom: 1rem;
     background-color:#80CEB9;
@@ -390,6 +399,23 @@ body {
     -webkit-transition: all  ease-in;
     transition: all  ease-in;
 }
+
+.click2 {
+    width: 8rem;
+    opacity: 0.4;
+    -webkit-transition: all 1ms ease-in-out;
+    transition: all 1ms ease-in-out;
+    transform: rotate(180deg);
+}
+
+.click2:hover {
+    opacity: 1.0;
+    -webkit-transition: all  ease-in;
+    transition: all  ease-in;
+    transform: rotate(180deg);
+}
+
+
 
 h1 { 
     color:white;
