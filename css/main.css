@@ -103,7 +103,6 @@ html {
     display: none;
 }
 
-
 .oc6 {
     padding-top: 8rem;
     padding-bottom: 8rem;
@@ -209,8 +208,6 @@ html {
     text-align: center;
     margin: 0;
 }
-
-
 
 .btn-opc3 { 
     margin-bottom: 1rem;
@@ -583,29 +580,21 @@ h2 {
 
     .click { 
         width: 15%;
-    
     }
     
     .ball { 
         width: 9%;
         bottom: 70%;
-    
     }
     
     .racket { 
         bottom: .1%;
         width: 50%;
-
     }
 
     h1 { 
-
-
-    font-size: 3rem;
-}
-
-
-
+        font-size: 3rem;
+    }
 
 }
 
@@ -613,25 +602,21 @@ h2 {
 
     .click { 
         width: 20%;
-    
     }
     
     .ball { 
         width: 9%;
         bottom: 40%;
-    
     }
     
     .racket { 
         bottom: .1%;
         width: 50%;
-    
     }
 
-       h1 { 
-
-    font-size: 5rem;
-}
+    h1 { 
+        font-size: 5rem;
+    }
 
 }
 
@@ -639,12 +624,10 @@ h2 {
     
     .click { 
         width: 10%;
-    
     }
 
-           h1 { 
-
-    font-size: 7rem;
-}
+    h1 { 
+        font-size: 7rem;
+    }
 
 }
