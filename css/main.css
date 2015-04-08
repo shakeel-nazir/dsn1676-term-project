@@ -202,6 +202,71 @@ html {
     text-shadow:0px 1px 0px #2f6627;
 }
 
+#roof { 
+    transform: translateY(0px);
+    transition:all 200ms ease; 
+
+}
+
+
+#Layer_1:hover #roof  { 
+    transform: translateY(-50px);
+
+}
+
+#racket { 
+     transform: rotate(0deg);
+    transition:all 200ms ease; 
+
+}
+
+
+#racket:hover { 
+    transform: rotate(50deg);
+}
+
+
+#tourment { 
+    transform: scale(.5,.5);
+}
+
+
+#tourment:hover { 
+    transform: scale(1,1);
+}
+
+#tourment { 
+    transform: scale(.5,.5);
+}
+
+
+#tourment:hover { 
+    transform: scale(1,1);
+}
+
+#ball2 { 
+    transform: scale(.5,.5);
+}
+
+
+#ball2:hover { 
+    transform: scale(1,1);
+}
+
+
+#shirt { 
+     transform: rotate(0deg);
+    transition:all 200ms ease; 
+
+}
+
+
+#shirt:hover { 
+    transform: rotate(360deg);
+}
+
+
+
 .footer{ 
     padding-top: 3rem;
     background-color: #717D8C;
@@ -379,6 +444,7 @@ body {
     background-color: #B71824;
     text-align: center;
 }
+
 
 .homebg { 
     background-color: #CC6846;
