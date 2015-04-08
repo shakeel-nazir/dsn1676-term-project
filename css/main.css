@@ -244,6 +244,26 @@ html {
     transform: scale(1,1);
 }
 
+#ball2 { 
+    transform: scale(.5,.5);
+}
+
+
+#ball2:hover { 
+    transform: scale(1,1);
+}
+
+
+#shirt { 
+     transform: rotate(0deg);
+    transition:all 200ms ease; 
+
+}
+
+
+#shirt:hover { 
+    transform: rotate(360deg);
+}
 
 
 
@@ -425,6 +445,7 @@ body {
     text-align: center;
 }
 
+
 .homebg { 
     background-color: #CC6846;
     text-align: center;
@@ -455,6 +476,24 @@ body {
     -webkit-transition: all  ease-in;
     transition: all  ease-in;
     transform: rotate(180deg);
+}
+
+.smallball { 
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+
+
+}
+
+.smallballbig { 
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+
+
 }
 
 

@@ -21,6 +21,8 @@ var $oc6 = $('.oc6')
 var $imghome = $('.imghome')
 var $billboard = $('.billboard');
 var $rb = $('.RB');
+var $box = $('.smallball');
+
 
 $btn.on('click', function () {
     $panel.animate({height: 'toggle'});
@@ -55,6 +57,12 @@ $btnopac5.on('click', function () {
 $btnopac6.on('click', function () {
     $oc6.animate({height: 'toggle'});
 })
+
+
+$smallball.on('hover', function () {
+
+	$smallballbig.animate({height: 'toggle'});
+});
 
 $('.nav').localScroll();
 
