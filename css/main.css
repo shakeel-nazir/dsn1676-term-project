@@ -202,6 +202,51 @@ html {
     text-shadow:0px 1px 0px #2f6627;
 }
 
+#roof { 
+    transform: translateY(0px);
+    transition:all 200ms ease; 
+
+}
+
+
+#Layer_1:hover #roof  { 
+    transform: translateY(-50px);
+
+}
+
+#racket { 
+     transform: rotate(0deg);
+    transition:all 200ms ease; 
+
+}
+
+
+#racket:hover { 
+    transform: rotate(50deg);
+}
+
+
+#tourment { 
+    transform: scale(.5,.5);
+}
+
+
+#tourment:hover { 
+    transform: scale(1,1);
+}
+
+#tourment { 
+    transform: scale(.5,.5);
+}
+
+
+#tourment:hover { 
+    transform: scale(1,1);
+}
+
+
+
+
 .footer{ 
     padding-top: 3rem;
     background-color: #717D8C;
