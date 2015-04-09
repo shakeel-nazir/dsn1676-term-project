@@ -75,8 +75,7 @@ html {
 }
 
 .oc4 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-bottom: 1rem;
     margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
@@ -90,8 +89,7 @@ html {
 }
 
 .oc3 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-bottom: 1rem;
     margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
@@ -105,8 +103,7 @@ html {
 }
 
 .oc6 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-bottom: 1rem;
     margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
@@ -120,8 +117,7 @@ html {
 }
 
 .oc5 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-bottom: 1rem;
     margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
@@ -135,8 +131,7 @@ html {
 }
 
 .oc2 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-bottom: 1rem;
     margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
@@ -150,8 +145,8 @@ html {
 }
 
 .oc {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    
+    padding-bottom: 1rem;
     margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
@@ -178,7 +173,7 @@ html {
 }
 
 .cap { 
-    padding-bottom:  5rem;
+    padding-bottom:  2rem;
 }
 
 .btn-opc6 { 
@@ -265,6 +260,16 @@ html {
     background-color: #717D8C;
 }
 
+.dance { 
+
+    font-size: 2rem;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    background-color: #405D79;
+    padding: .5rem;
+    margin: 0;
+}
+
 .panel { 
     display: none;
     width: 100%;
@@ -304,14 +309,21 @@ p {
     padding-bottom: 3rem;
 }
 
+
 li:hover { 
     background-color: lightgreen;
 }
 
-.bottom { 
+.js-active .bottom{ 
     -webkit-animation: rotate-box 500ms ease-in-out infinite alternate;
     animation: rotate-box 500ms ease-in-out infinite alternate;
 }
+
+.js-click { 
+    -webkit-animation: rotate-box 500ms ease-in-out infinite alternate;
+    animation: rotate-box 500ms ease-in-out infinite alternate;
+}
+
 
 .top2 {
     -webkit-animation: rotate-box 1s ease-in-out infinite alternate;

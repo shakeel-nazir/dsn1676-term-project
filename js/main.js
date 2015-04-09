@@ -21,7 +21,15 @@ var $oc6 = $('.oc6')
 var $imghome = $('.imghome')
 var $billboard = $('.billboard');
 var $rb = $('.RB');
+var $lightBody = $('.player');
 
+$lightBody.on('click', function () {
+	$lightBody.toggleClass('js-active');
+})
+
+$lightBody.on('click', function () {
+	$lightBody.toggleClass('js-click');
+})
 
 $btn.on('click', function () {
     $panel.animate({height: 'toggle'});
