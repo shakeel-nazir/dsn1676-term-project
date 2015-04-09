@@ -376,6 +376,36 @@ li:hover {
     background-color: lightgreen;
 }
 
+
+.bottom { 
+
+    
+    animation: rotate-box 500ms ease-in-out infinite alternate;
+    
+
+
+}
+
+.top2 {
+    animation: rotate-box 1s ease-in-out infinite alternate;
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.Body  {
+    animation: up-box 1s ease-in-out infinite alternate;
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+
+
+}
+
+
 body { 
     margin: 0;
 }
@@ -487,26 +517,8 @@ body {
 
 
 
-.bottom2  {
-    animation: rotate-box 1s ease-in-out infinite alternate;
-    animation: right-box 1s ease-in-out infinite alternate;
-    width: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1rem;
 
 
-}
-
-.Body  {
-    animation: up-box 1s ease-in-out infinite alternate;
-    width: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1rem;
-
-
-}
 
 
 
@@ -524,24 +536,25 @@ body {
 
 @keyframes right-box {
      0% { 
-        transform: translateX(0);
+        transform: translateY(10px);
     
     }
   
     100% {
-        transform: translateX(1rem);
+        transform: translateY(0);
     
     }
 }
 
 @keyframes rotate-box {
      0% { 
+
         transform: rotate(0);
     
     }
   
     100% {
-       transform: rotate(5deg);;
+       transform: rotate(4deg);;
     
     }
 }
@@ -619,6 +632,11 @@ h2 {
     top: 25%;
     left: 0;
     width: 100%;
+}
+
+.bottom2 { 
+    margin-top:1rem;
+
 }
 
 .click { 
