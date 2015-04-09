@@ -178,9 +178,7 @@ html {
 }
 
 .cap { 
-
     padding-bottom:  5rem;
-
 }
 
 .btn-opc6 { 
@@ -208,71 +206,6 @@ html {
     text-decoration:none;
     text-shadow:0px 1px 0px #2f6627;
 }
-
-#roof { 
-    transform: translateY(0px);
-    transition:all 200ms ease; 
-
-}
-
-
-#Layer_1:hover #roof  { 
-    transform: translateY(-50px);
-
-}
-
-#racket { 
-     transform: rotate(0deg);
-    transition:all 200ms ease; 
-
-}
-
-
-#racket:hover { 
-    transform: rotate(50deg);
-}
-
-
-#tourment { 
-    transform: scale(.5,.5);
-}
-
-
-#tourment:hover { 
-    transform: scale(1,1);
-}
-
-#tourment { 
-    transform: scale(.5,.5);
-}
-
-
-#tourment:hover { 
-    transform: scale(1,1);
-}
-
-#ball2 { 
-    transform: scale(.5,.5);
-}
-
-
-#ball2:hover { 
-    transform: scale(1,1);
-}
-
-
-#shirt { 
-     transform: rotate(0deg);
-    transition:all 200ms ease; 
-
-}
-
-
-#shirt:hover { 
-    transform: rotate(360deg);
-}
-
-
 
 .footer{ 
     padding-top: 3rem;
@@ -371,40 +304,31 @@ p {
     padding-bottom: 3rem;
 }
 
-
 li:hover { 
     background-color: lightgreen;
 }
 
-
 .bottom { 
-
-    
+    -webkit-animation: rotate-box 500ms ease-in-out infinite alternate;
     animation: rotate-box 500ms ease-in-out infinite alternate;
-    
-
-
 }
 
 .top2 {
+    -webkit-animation: rotate-box 1s ease-in-out infinite alternate;
     animation: rotate-box 1s ease-in-out infinite alternate;
     width: 5%;
     margin-left: auto;
     margin-right: auto;
-
-
 }
 
 .Body  {
+    -webkit-animation: up-box 1s ease-in-out infinite alternate;
     animation: up-box 1s ease-in-out infinite alternate;
     width: 5%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1rem;
-
-
 }
-
 
 body { 
     margin: 0;
@@ -482,7 +406,6 @@ body {
     text-align: center;
 }
 
-
 .homebg { 
     background-color: #CC6846;
     text-align: center;
@@ -506,6 +429,7 @@ body {
     -webkit-transition: all 1ms ease-in-out;
     transition: all 1ms ease-in-out;
     transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
 }
 
 .click2:hover {
@@ -513,62 +437,14 @@ body {
     -webkit-transition: all  ease-in;
     transition: all  ease-in;
     transform: rotate(180deg);
-}
-
-
-
-
-
-
-
-
-@keyframes up-box {
-     0% { 
-        transform: translateY(0);
-    
-    }
-  
-    100% {
-        transform: translateY(1rem);
-    
-    }
-}
-
-@keyframes right-box {
-     0% { 
-        transform: translateY(10px);
-    
-    }
-  
-    100% {
-        transform: translateY(0);
-    
-    }
-}
-
-@keyframes rotate-box {
-     0% { 
-
-        transform: rotate(0);
-    
-    }
-  
-    100% {
-       transform: rotate(4deg);;
-    
-    }
+    -webkit-transform: rotate(180deg);
 }
 
 .player { 
-
     width: 10%;
     margin-left: auto;
     margin-right: auto;
-
 }
-
-
-
 
 h1 { 
     color:white;
@@ -636,7 +512,6 @@ h2 {
 
 .bottom2 { 
     margin-top:1rem;
-
 }
 
 .click { 
@@ -655,60 +530,108 @@ h2 {
     animation-name: fadeIn; 
 }
 
+@-webkit-keyframes up-box {
+    0% { 
+        transform: translateY(0);
+    }
+  
+    100% {
+        transform: translateY(1rem);
+    }
+}
+
+@keyframes up-box {
+    0% { 
+        transform: translateY(0);
+    }
+  
+    100% {
+        transform: translateY(1rem);
+    }
+}
+
+@-webkit-keyframes right-box {
+     0% { 
+        transform: translateY(10px);
+    }
+  
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes right-box {
+     0% { 
+        transform: translateY(10px);
+    }
+  
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes rotate-box {
+     0% {
+        transform: rotate(0);
+    }
+  
+    100% {
+       transform: rotate(4deg);;
+    }
+}
+
+@keyframes rotate-box {
+     0% {
+        transform: rotate(0);
+    }
+  
+    100% {
+       transform: rotate(4deg);;
+    }
+}
+
 @-webkit-keyframes ball {
 
     0% { 
-        -webkit-transform: translateY(0px);
-        
+        -webkit-transform: translateY(0px);  
     }
   
     100% {
         -webkit-transform: translateY(50px);
-    
     }
-
 }
 
 @keyframes ball {
 
     0% { 
         transform: translateY(0px);
-    
     }
   
     100% {
         transform: translateY(50px);
-    
     }
-
 }
 
 @-webkit-keyframes racket {
 
     0% { 
         -webkit-transform: translateY(0px);
-    
     }
   
     100% {
         -webkit-transform: translateY(6px);
-    
     }
-
 }
 
 @keyframes racket {
 
     0% { 
         transform: translateY(0px);
-    
     }
   
     100% {
         transform: translateY(6px);
-    
     }
-
 }
 
 @-webkit-keyframes fadeIn { 
@@ -720,21 +643,17 @@ h2 {
     100% {
         opacity: 1;
     } 
-
 } 
 
 @keyframes fadeIn { 
     
     0% {
         opacity: 0;
-    
     } 
     
     100% {
         opacity: 1;
-    
     } 
-
 } 
 
 @media only screen and (min-width: 22em) { 
@@ -778,7 +697,6 @@ h2 {
     h1 { 
         font-size: 5rem;
     }
-
 }
 
 @media only screen and (min-width: 60em) { 
@@ -790,5 +708,4 @@ h2 {
     h1 { 
         font-size: 7rem;
     }
-
 }
