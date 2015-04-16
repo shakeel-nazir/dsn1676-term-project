@@ -332,19 +332,6 @@ li:hover {
     margin-right: auto;
 }
 
-.Body  {
-    -webkit-animation: up-box 1s ease-in-out infinite alternate;
-    animation: up-box 1s ease-in-out infinite alternate;
-    width: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1rem;
-}
-
-body { 
-    margin: 0;
-}
-
 .RB { 
     margin-bottom: .5rem;
     margin-top: 2rem;
