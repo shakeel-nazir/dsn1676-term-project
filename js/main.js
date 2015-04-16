@@ -70,3 +70,6 @@ $('.nav').localScroll();
 $('.home').localScroll();
 
 $('.footer').localScroll();
+
+$('.skip-links').localScroll();
+
