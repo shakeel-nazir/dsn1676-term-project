@@ -112,6 +112,13 @@ button:focus {
     background-color: lightgreen;   
 }
 
+.copy { 
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    font-size: 1rem;
+
+}
+
 .oc4 {
     padding-bottom: 1rem;
     margin-bottom: 0;
@@ -361,7 +368,6 @@ li:hover {
     -webkit-animation: rotate-box 500ms ease-in-out infinite alternate;
     animation: rotate-box 500ms ease-in-out infinite alternate;
 }
-
 .js-click { 
     -webkit-animation: rotate-box 500ms ease-in-out infinite alternate;
     animation: rotate-box 500ms ease-in-out infinite alternate;
@@ -379,7 +385,6 @@ li:hover {
 .RB { 
     margin-bottom: .5rem;
     margin-top: 2rem;
-    padding-left: 50rem;
     margin-right: 1rem;
     position: relative;
     padding-top: 20%;
@@ -454,15 +459,31 @@ li:hover {
 }
 
 .click {
+    width: 8rem;
     opacity: 0.4;
     -webkit-transition: all 1ms ease-in-out;
     transition: all 1ms ease-in-out;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+
 }
 
 .click:hover {
-    opacity: 1.0;
+     opacity: 1.0;
     -webkit-transition: all  ease-in;
     transition: all  ease-in;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+ 
+}
+
+.toparrow { 
+    margin-left: 0%;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    text-align: center;
+
+
 }
 
 .click2 {
@@ -519,7 +540,9 @@ h2 {
 .racket { 
     bottom: .1%;
     width: 50%;
-    left:20rem;
+    left:50%;
+    -webkit-transform: translate(-50%, 0px);
+    transform: translate(-50%, 0px);
     position: absolute;
     -webkit-animation: racket .2s ease-in-out infinite alternate;
     animation: racket .2s ease-in-out infinite alternate;
@@ -530,7 +553,9 @@ h2 {
     -webkit-animation: ball .2s ease-in-out infinite alternate;
     animation: ball .2s ease-in-out infinite alternate;
     position: absolute;
-    left: 30rem;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0px);
+    tlick
     display: block;
     bottom: 90%;
 }
@@ -556,16 +581,6 @@ h2 {
     margin-top:1rem;
 }
 
-.click { 
-    width: 30%;
-    position: relative;
-    display: block; 
-    margin-right: auto;
-    margin-left: auto;
-    padding-bottom: 1rem;
-    padding-right: 1rem;
-    padding-left:1rem;
-}
 
 .fadeIn { 
     -webkit-animation-name: fadeIn; 
@@ -635,44 +650,44 @@ h2 {
 @-webkit-keyframes ball {
 
     0% { 
-        -webkit-transform: translateY(0px);  
+        -webkit-transform: translate(-50%, 0px);  
     }
   
     100% {
-        -webkit-transform: translateY(50px);
+        -webkit-transform: translate(-50%, 50px);
     }
 }
 
 @keyframes ball {
 
     0% { 
-        transform: translateY(0px);
+        transform: translate(-50%, 0px);
     }
   
     100% {
-        transform: translateY(50px);
+        transform: translate(-50%, 50px);
     }
 }
 
 @-webkit-keyframes racket {
 
     0% { 
-        -webkit-transform: translateY(0px);
+        -webkit-transform: translate(-50%, 0px);
     }
   
     100% {
-        -webkit-transform: translateY(6px);
+        -webkit-transform: translate(-50%, 6px);
     }
 }
 
 @keyframes racket {
 
     0% { 
-        transform: translateY(0px);
+        transform: translate(-50%, 0px);
     }
   
     100% {
-        transform: translateY(6px);
+        transform: translate(-50%, 6px);
     }
 }
 
@@ -699,10 +714,6 @@ h2 {
 } 
 
 @media only screen and (min-width: 22em) { 
-
-    .click { 
-        width: 15%;
-    }
     
     .ball { 
         width: 9%;
@@ -722,9 +733,6 @@ h2 {
 
 @media only screen and (min-width: 50em) { 
 
-    .click { 
-        width: 20%;
-    }
     
     .ball { 
         width: 9%;
@@ -743,9 +751,6 @@ h2 {
 
 @media only screen and (min-width: 60em) { 
     
-    .click { 
-        width: 10%;
-    }
 
     h1 { 
         font-size: 7rem;
